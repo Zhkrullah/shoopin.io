@@ -1,0 +1,385 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+    margin: 30px;
+    background-color: #ecececdb;
+    box-sizing: border-box;
+  }
+  
+  
+  /* THIS IS HEADER SECTION*/
+  
+  .header{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+  }
+  
+  ul li{
+    display: inline-block;
+    padding: 10px;
+  
+  }
+  
+  ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: rgba(31, 29, 29, 0.753);
+    padding: 10px;
+    
+  }
+  
+  .logo{
+    padding: 10px;
+  
+  align-content: center;
+  font-family: Arial;
+  font-size: 15x;
+  
+  }
+  
+  .logo-text{
+    color: rgba(75, 13, 13, 0.356);
+   
+  }
+  .logo img{
+  width: 50px;
+  display: block;
+  
+  }
+   a:hover{
+    text-decoration: dashed;
+    color:rgb(49, 3, 3);
+  }
+  
+  .login-button a{
+    background-color: transparent;
+    color: brown;
+    margin-left: 10px;
+  
+    text-decoration: none;
+    border: none;
+  }
+  
+  .login-button{
+    border: none;
+    padding: 10px;
+  }
+  .login-button a:hover{
+    color: red;
+  }
+  
+  /* THIS IS BANAR section */
+  .banar{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    
+  }
+  
+  .banar-title{
+    display: inline-block;
+    align-items: center;
+    
+  }
+  
+  .banar-title h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    font-weight: bolder;
+    line-height: 1.5;
+  }
+  
+  .book-now{
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background-color: brown;
+    border-radius: 7px;
+    padding: 10px;
+    border: none;
+    margin-right: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+   
+  }
+  
+  a .book-now:hover{
+  color: black;
+  
+  }
+  
+  .contact-us{
+    background-color:transparent;
+    padding: 9px;
+    border: solid 1px brown;
+    border-radius: 7px;
+   
+    margin-top: 10px;
+    cursor: pointer;
+    color: red;
+    font-size: 15px;
+  }
+  
+  a .contact-us:hover{
+    color: black;
+  }
+  .banar-image{
+  display: inline-block;
+  align-items: center;
+  }
+  
+  .banar-image img{
+   padding:0 30px;
+   align-content: center;
+  }
+  
+   .food-catigory{
+   
+    
+  padding: 10px;
+    align-items: center;
+    
+    
+    
+  } 
+  
+  .food-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+   transform: scaleY(.7);
+    transition: ease-in-out .4s;
+    cursor: pointer;
+    
+  
+  }
+  .item-image{
+    display: inline-block;
+    align-items: center;
+    justify-content: space-evenly;
+   
+  }
+  
+  .item-image img{
+   width: 200px;
+   height: 200px;
+  }
+  
+  .item-image:hover{
+   color: blue;
+   
+    transition: all .4s;
+  
+  }
+  .item-image img:active{
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+    transform: scale(.9);
+    transition: all .4s;
+  }
+  
+  .image-text{
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .price-tag{
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    color: red;
+  }
+  
+  /* END OF BANAR SECTION*/
+  
+  
+  /* THIS IS STARF SECTION */
+  
+  .starf-section{  
+    display: flex;
+    justify-content: space-between;
+   
+    
+  }
+  .starf-image:hover{
+   box-shadow: 0 8px 16px 0 rgba(red, green, blue, alpha);
+   transform: scale(.9);
+   transition: all .4s;
+  
+  }
+  .starf-container{
+    display: inline-block;
+  padding: 10PX;
+  
+  }
+  .starf-image{
+    display: inline-block;
+    width: 250px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+   cursor: pointer;
+  }
+  
+  .starf-image img{
+    width: 200px;
+    height: 200px;
+   margin-bottom: 0;
+  }
+  
+  .starf-details{
+    padding: 10px;
+    line-height: 1.5;
+    font-family: Cambria, Cochin, Georgia, Times, 
+    'Times New Roman', serif;
+    
+  }
+  span .starf-name{
+    margin-top: 0;
+  }
+  
+  .footer-section{
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+  
+  }
+  
+  .free-shipping{
+    display: inline-block;
+    margin: 20px 60px;
+    padding:0 40px;
+  }
+  .support{
+    display: inline-block;
+    margin:20px 60px;
+    padding:0 40px;
+  }
+  
+  .free-retun{
+    display: inline-block;
+    margin:20px 60px;
+    padding:0 40px;
+  }
+  
+  .footer-contct-us{
+    display: inline-block;
+    margin:20px 60px;
+    padding:0 40px;
+  }
+  
+  .fa{
+    padding: 10px;
+    text-align: center;
+    margin: 5px 2px;
+    font-size: 15px;
+    width: 40px;
+  }
+  
+  .fa-facebook{
+    background-color: #3b5998;
+    color: white;
+  }
+  /* .fa{
+    font-size: 30px;
+  }
+   .starf-name{
+    color: brown;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+  .description{
+   margin-top: 0;
+   
+  }
+  
+  
+  footer{
+    background-color: #2b4d45;
+    justify-content: space-around;
+    padding: 20px;
+    display: flex; 
+    position: fixed;
+    width: 85.3%;
+    margin-top: 0;
+  }
+  
+  .footer-first-text{
+    color: white;
+  }
+  
+  .footer-second-text{
+    color: grey;
+  } */
+  
+  ./* footer{
+    display: flex;
+    justify-content:space-evenly;
+    align-items:baseline;
+    background-color: red;
+    position: fixed;
+    margin-left: 0;
+    margin-right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    color: white;
+    padding: 10px;
+    
+  }
+  
+  .about-footer{
+    display: block;
+    text-align: justify;
+  }
+  .about-footer{
+    width: 60%;
+    height: 50%;
+  }
+   .about-text{
+    text-align: justify;
+    width: 100%;
+  
+  }
+  
+  .footer-logo{
+    width: 200px;
+  }
+  
+  .footer-logo img{
+    float: left;
+    width: 50%;
+    margin-left: 10px;
+  }
+  .footer, .footer-logo img{
+    margin-right: 20px;
+  }
+  .social-media{
+    width: 300px;
+   
+  }
+  
+  .contact-address{
+    width: 40%;
+    
+  }
+  
+  
+  
+  
+  
+  @media screen and (max-width: 400px){
+    font-size: 14px;
+    .header{
+      width:83%;
+    }
+    
+  } */
